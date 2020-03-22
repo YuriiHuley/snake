@@ -1,0 +1,29 @@
+.body{
+
+}
+.areaBox{
+    width: 64px;
+    height: 64px;
+
+}
+.border{
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+.areaRow{
+    display: flex;
+}
+.snakeBox{
+    background: #27ae60;
+}
+.appleBox{
+    background-image: url(apple.png);
+}
+.count{
+    font-size: 50px;
+    text-align: center;
+}
